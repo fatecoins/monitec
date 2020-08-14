@@ -427,9 +427,6 @@ img {
   .container .content .titulo h3, .container .content-reverse .titulo h3, .container .you-can-help .titulo h3 {
     font-size: 1rem;
   }
-  .container .content .img-1, .container .content-reverse .img-1, .container .you-can-help .img-1 {
-    margin-top: 2rem;
-  }
   .container .content-reverse {
     display: -webkit-box;
     display: -ms-flexbox;
