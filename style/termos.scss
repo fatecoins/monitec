@@ -1,0 +1,47 @@
+.container {
+
+    grid-template-areas: 
+        "header header header"
+        "content content content"
+        "footer footer footer"
+    ;
+
+    .content {
+        margin: 3rem 8rem;
+        grid-template-columns: 1fr;
+
+        h2, h3 {
+            color:  #0089EF;
+    
+            a { 
+                text-decoration: none;
+                color: #445566;
+            }
+        }
+    
+        .main-text {
+            nav {
+                ul {
+                    li {
+                        a {
+                            font-size: 1.2rem;
+                            text-decoration: none;
+                            color: #445566;
+                            cursor: pointer;
+                        }
+                    }
+                }
+            }
+    
+            span { color: #445566;}
+    
+            p {
+                margin: 1rem 0;
+                font-size: 1.2rem;
+                font-weight: bold;
+                text-align: start;
+            }
+        }
+    }
+}
+
