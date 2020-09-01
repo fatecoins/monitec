@@ -17,6 +17,13 @@
                 text-decoration: none;
                 color: #445566;
             }
+
+            span {
+                a {
+                    padding-left: 1rem;
+                    color:  #0089EF;
+                }
+            }
         }
     
         .main-text {
@@ -45,3 +52,22 @@
     }
 }
 
+@media (max-width: 767px) {
+    .container {
+        .content {
+            margin: 0;
+
+            .main-text {
+                nav {
+                    ul {
+                        li {
+                            a {
+                                font-size: 1rem;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
