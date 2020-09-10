@@ -340,6 +340,9 @@ img {
         grid-template-columns: 100%;
         grid-template-areas: "header" "content" "content-reverse" "you-can-help" "footer";
   }
+  .container .header nav ul span {
+    margin: 1rem;
+  }
   .container .header nav a {
     padding: 1rem 0;
     margin-top: 0.5rem;
@@ -404,6 +407,9 @@ img {
     -ms-grid-columns: 100%;
         grid-template-columns: 100%;
         grid-template-areas: "header" "content" "content-reverse" "you-can-help" "footer";
+  }
+  .container .header nav ul span {
+    margin: 1rem;
   }
   .container .header nav a {
     -webkit-box-pack: center;

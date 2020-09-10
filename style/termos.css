@@ -8,16 +8,16 @@
       grid-template-columns: 1fr;
 }
 
-.container .content h2, .container .content h3 {
+.container .content h1, .container .content h2, .container .content h3 {
   color: #0089EF;
 }
 
-.container .content h2 a, .container .content h3 a {
+.container .content h1 a, .container .content h2 a, .container .content h3 a {
   text-decoration: none;
   color: #445566;
 }
 
-.container .content h2 span a, .container .content h3 span a {
+.container .content h1 span a, .container .content h2 span a, .container .content h3 span a {
   padding-left: 1rem;
   color: #0089EF;
 }
@@ -43,6 +43,9 @@
 @media (max-width: 767px) {
   .container .content {
     margin: 0;
+  }
+  .container .content .main-text nav ul span {
+    margin: 1rem;
   }
   .container .content .main-text nav ul li a {
     font-size: 1rem;
