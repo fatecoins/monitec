@@ -93,7 +93,7 @@ img {
 
 .container .sidenav {
   grid-area: sidenav;
-  background: #fafbfc;
+  background: white;
   padding: 30px 0;
 }
 
@@ -221,7 +221,7 @@ img {
   -ms-grid-column: 1;
   -ms-grid-column-span: 3;
   grid-area: footer;
-  background: #F1F5FF;
+  background: white;
 }
 
 .container .footer p {
