@@ -221,7 +221,7 @@ img {
   -ms-grid-column: 1;
   -ms-grid-column-span: 3;
   grid-area: footer;
-  background: white;
+  background: #EFF4FF;
 }
 
 .container .footer p {
