@@ -18,7 +18,7 @@ $strongGray: #445566;
     
             a { 
                 text-decoration: none;
-                color: strongG$ray;
+                color: $strongGray;
             }
 
             span {
@@ -36,8 +36,10 @@ $strongGray: #445566;
                         a {
                             font-size: 1.2rem;
                             text-decoration: none;
-                            color: strongG$ray;
+                            color: $strongGray;
                             cursor: pointer;
+
+                            &:hover { color: $blue; }
                         }
                     }
                 }

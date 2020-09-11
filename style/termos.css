@@ -29,6 +29,10 @@
   cursor: pointer;
 }
 
+.container .content .main-text nav ul li a:hover {
+  color: #0089EF;
+}
+
 .container .content .main-text span {
   color: #445566;
 }
