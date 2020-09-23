@@ -389,8 +389,10 @@ img {
         .header {
             nav {
                 ul {
+                    justify-content: center;
+
                     span {
-                        margin: 1rem;
+                        margin: 1.5rem;
                     }
                 }
                 
@@ -401,14 +403,6 @@ img {
             }
 
             .logo { display: none; }
-
-            .logo-mobile { 
-                display: flex;
-
-                img {
-                    width: 25%;
-                }
-             }
         }
 
         .content {
@@ -495,14 +489,6 @@ img {
             }
 
             .logo { display: none; }
-
-            .logo-mobile { 
-                display: flex;
-
-                img {
-                    width: 30%;
-                }
-             }
         }
 
         .content {
@@ -564,22 +550,6 @@ img {
             }
 
             .img-3 { width: 100%;}
-        }
-    }
-}
-
-@media (max-width: 320px) {
-    .header {
-        nav {
-            ul {
-                justify-content: center;
-            }
-        }
-
-        .logo { display: none; }
-
-        .logo-mobile { 
-           display: none !important;
         }
     }
 }
