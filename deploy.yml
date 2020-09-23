@@ -1,0 +1,31 @@
+---
+- hosts: local
+  connection: local
+
+  tasks:
+    - name: iniciar deploy
+      tags: start
+      shell: |
+        echo "Iniciando..."
+
+    - name: parar processos
+      tags: prebuild
+      shell: |
+        rm .git -rf
+
+    - name: transferir arquivos
+      tags: transfer
+      shell: |
+        cp ./ /var/www/appmonitec.com.br/public_html -r
+        rm /var/www/appmonitec.com.br/public_html/Jenkinsfile
+        rm /var/www/appmonitec.com.br/public_html/deploy.yml
+
+    - name: iniciar processos
+      tags: install
+      shell: |
+        cd /var/www/appmonitec.com.br/public_html
+
+    - name: habilitar deploy completo
+      tags: enable
+      shell: |
+        echo "BUILD: ${BUILD_NUMBER} ($(date))" > /var/www/appmonitec.com.br/public_html/VERSION.txt
