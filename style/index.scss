@@ -406,7 +406,7 @@ img {
                 display: flex;
 
                 img {
-                    width: 22%;
+                    width: 25%;
                 }
              }
         }
@@ -500,7 +500,7 @@ img {
                 display: flex;
 
                 img {
-                    width: 22%;
+                    width: 30%;
                 }
              }
         }
@@ -564,6 +564,22 @@ img {
             }
 
             .img-3 { width: 100%;}
+        }
+    }
+}
+
+@media (max-width: 320px) {
+    .header {
+        nav {
+            ul {
+                justify-content: center;
+            }
+        }
+
+        .logo { display: none; }
+
+        .logo-mobile { 
+           display: none !important;
         }
     }
 }
