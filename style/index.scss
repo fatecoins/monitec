@@ -157,6 +157,17 @@ img {
             grid-row: span 2;
             justify-self: flex-end;
         }
+
+        .badges {
+            display: flex;
+            justify-content: center;
+            margin-top: 2rem;
+
+            a {
+                width: 30%;
+                padding-left: 1rem;
+            }
+        }
     }
 
     .content-reverse {

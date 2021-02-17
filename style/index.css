@@ -165,6 +165,21 @@ img {
   justify-self: flex-end;
 }
 
+.container .content .badges, .container .content-reverse .badges, .container .you-can-help .badges {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 2rem;
+}
+
+.container .content .badges a, .container .content-reverse .badges a, .container .you-can-help .badges a {
+  width: 30%;
+  padding-left: 1rem;
+}
+
 .container .content-reverse {
   margin: 40rem auto;
   margin-bottom: 4rem;
