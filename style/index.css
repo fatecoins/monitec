@@ -415,7 +415,7 @@ img {
   }
 }
 
-@media (max-width: 415px) {
+@media (max-width: 425px) {
   .container {
     -ms-grid-columns: 100%;
         grid-template-columns: 100%;
@@ -459,6 +459,9 @@ img {
   }
   .container .content .titulo h3, .container .content-reverse .titulo h3, .container .you-can-help .titulo h3 {
     font-size: 1rem;
+  }
+  .container .content .badges a, .container .content-reverse .badges a, .container .you-can-help .badges a {
+    width: 40%;
   }
   .container .content-reverse {
     display: -webkit-box;

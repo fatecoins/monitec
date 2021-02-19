@@ -473,7 +473,7 @@ img {
     }
 }
 
-@media (max-width: 415px) {
+@media (max-width: 425px) {
     .container {
         grid-template-columns: 100%;
         grid-template-areas: 
@@ -522,6 +522,12 @@ img {
     
                 h3 {
                     font-size: 1rem;
+                }
+            }
+
+            .badges {
+                a {
+                    width: 40%;
                 }
             }
         }
